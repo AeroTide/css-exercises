@@ -7,10 +7,53 @@ img {
   height: 100px;
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  padding: 32px;
 }
+
+.one {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+}
+
+.two {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+}
+
+.three {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+}
+
+.four {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+
 
 /* do not edit this footer */
 .footer {
